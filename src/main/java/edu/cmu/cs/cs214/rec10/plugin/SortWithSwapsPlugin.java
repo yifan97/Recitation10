@@ -109,7 +109,7 @@ public class SortWithSwapsPlugin implements GamePlugin {
     }
 
     public String getGameOverMessage() {
-        return "you did it in" + count + "moves!";
+        return "you did it in " + count + "moves!";
     }
 
     public void onGameClosed() {
